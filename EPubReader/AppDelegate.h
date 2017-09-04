@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+@class HomeViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    HomeViewController *viewController;
+    UINavigationController *_rootNavigation;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+
 
 @end

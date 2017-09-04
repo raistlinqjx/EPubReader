@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Image</key>
+		<string>tolstoy-war-and-peace-bookcover.jpg</string>
+		<key>Authorname</key>
+		<string>Tolstoy</string>
+		<key>Filename</key>
+		<string>tolstoy-war-and-peace</string>
+		<key>Displayname</key>
+		<string>War and Peace</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>wells-food-of-the-gods-and-how-it-came-to-earth-bookcover.jpg</string>
+		<key>Authorname</key>
+		<string>H.G. Wells</string>
+		<key>Filename</key>
+		<string>sample3</string>
+		<key>Displayname</key>
+		<string>The Food of the Gods and How It Came to Earth</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>stoker-dracula-bookcover.jpg</string>
+		<key>Authorname</key>
+		<string>Stoker</string>
+		<key>Filename</key>
+		<string>stoker-dracula</string>
+		<key>Displayname</key>
+		<string>Dracula</string>
+	</dict>
+	<dict>
+		<key>Image</key>
+		<string>barrie-peter-pan-in-kensington-gardens-bookcover.jpg</string>
+		<key>Authorname</key>
+		<string>J. M. Barrie</string>
+		<key>Filename</key>
+		<string>barrie-peter-pan-in-kensington-gardens</string>
+		<key>Displayname</key>
+		<string>Peter Pan in Kensington Gardens</string>
+	</dict>
+</array>
+</plist>

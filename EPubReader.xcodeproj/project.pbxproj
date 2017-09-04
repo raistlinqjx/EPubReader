@@ -7,25 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610DE6D21586E10800E8BE08 /* EpubReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610DE6D01586E10800E8BE08 /* EpubReaderViewController.m */; };
+		610DE6D31586E10800E8BE08 /* EpubReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610DE6D11586E10800E8BE08 /* EpubReaderViewController.xib */; };
+		612A301A1581C521003E8ED8 /* EpubContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 612A30191581C521003E8ED8 /* EpubContent.m */; };
+		612A301E1581CB13003E8ED8 /* XMLHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 612A301D1581CB13003E8ED8 /* XMLHandler.m */; };
 		6144D2611581918600CAFE7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6144D2601581918600CAFE7D /* UIKit.framework */; };
 		6144D2631581918600CAFE7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6144D2621581918600CAFE7D /* Foundation.framework */; };
 		6144D2651581918600CAFE7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6144D2641581918600CAFE7D /* CoreGraphics.framework */; };
 		6144D26B1581918600CAFE7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6144D2691581918600CAFE7D /* InfoPlist.strings */; };
 		6144D26D1581918600CAFE7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6144D26C1581918600CAFE7D /* main.m */; };
 		6144D2711581918600CAFE7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6144D2701581918600CAFE7D /* AppDelegate.m */; };
+		6144D2851581961300CAFE7D /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6144D2781581961300CAFE7D /* Background.png */; };
+		6144D2861581961300CAFE7D /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6144D2791581961300CAFE7D /* bar.png */; };
+		6144D2871581961300CAFE7D /* barrie-peter-pan-in-kensington-gardens-bookcover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6144D27A1581961300CAFE7D /* barrie-peter-pan-in-kensington-gardens-bookcover.jpg */; };
+		6144D2881581961300CAFE7D /* barrie-peter-pan-in-kensington-gardens.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6144D27B1581961300CAFE7D /* barrie-peter-pan-in-kensington-gardens.epub */; };
+		6144D2891581961300CAFE7D /* EpubFiles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6144D27C1581961300CAFE7D /* EpubFiles.plist */; };
+		6144D28A1581961300CAFE7D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6144D27D1581961300CAFE7D /* icon.png */; };
+		6144D28B1581961300CAFE7D /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6144D27E1581961300CAFE7D /* navbar.png */; };
+		6144D28C1581961300CAFE7D /* sample3.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6144D27F1581961300CAFE7D /* sample3.epub */; };
+		6144D28D1581961300CAFE7D /* stoker-dracula-bookcover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6144D2801581961300CAFE7D /* stoker-dracula-bookcover.jpg */; };
+		6144D28E1581961300CAFE7D /* stoker-dracula.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6144D2811581961300CAFE7D /* stoker-dracula.epub */; };
+		6144D28F1581961300CAFE7D /* tolstoy-war-and-peace-bookcover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6144D2821581961300CAFE7D /* tolstoy-war-and-peace-bookcover.jpg */; };
+		6144D2901581961300CAFE7D /* tolstoy-war-and-peace.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6144D2831581961300CAFE7D /* tolstoy-war-and-peace.epub */; };
+		6144D2911581961300CAFE7D /* wells-food-of-the-gods-and-how-it-came-to-earth-bookcover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6144D2841581961300CAFE7D /* wells-food-of-the-gods-and-how-it-came-to-earth-bookcover.jpg */; };
+		6144D293158198FA00CAFE7D /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6144D292158198FA00CAFE7D /* libz.1.2.5.dylib */; };
+		6155929A158AC90D00DE83EB /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61559298158AC90D00DE83EB /* BookCell.m */; };
+		6155929B158AC90D00DE83EB /* BookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61559299158AC90D00DE83EB /* BookCell.xib */; };
+		615592A0158AD33300DE83EB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6155929E158AD33300DE83EB /* HomeViewController.m */; };
+		615592A1158AD33300DE83EB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6155929F158AD33300DE83EB /* HomeViewController.xib */; };
+		61B1191D15E5C4750091B083 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B1191115E5C4750091B083 /* ioapi.c */; };
+		61B1191E15E5C4750091B083 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B1191315E5C4750091B083 /* mztools.c */; };
+		61B1191F15E5C4750091B083 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B1191515E5C4750091B083 /* unzip.c */; };
+		61B1192015E5C4750091B083 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 61B1191715E5C4750091B083 /* zip.c */; };
+		61B1192115E5C4750091B083 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 61B1191A15E5C4750091B083 /* ZipArchive.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		610DE6CF1586E10800E8BE08 /* EpubReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubReaderViewController.h; sourceTree = "<group>"; };
+		610DE6D01586E10800E8BE08 /* EpubReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubReaderViewController.m; sourceTree = "<group>"; };
+		610DE6D11586E10800E8BE08 /* EpubReaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EpubReaderViewController.xib; sourceTree = "<group>"; };
+		612A30181581C521003E8ED8 /* EpubContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpubContent.h; sourceTree = "<group>"; };
+		612A30191581C521003E8ED8 /* EpubContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpubContent.m; sourceTree = "<group>"; };
+		612A301C1581CB13003E8ED8 /* XMLHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLHandler.h; sourceTree = "<group>"; };
+		612A301D1581CB13003E8ED8 /* XMLHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLHandler.m; sourceTree = "<group>"; };
 		6144D25C1581918600CAFE7D /* EPubReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPubReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6144D2601581918600CAFE7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6144D2621581918600CAFE7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6144D2641581918600CAFE7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6144D2681581918600CAFE7D /* EPubReader-Info.plist */ = {isa = PBXFileReference; path = "EPubReader-Info.plist"; sourceTree = "<group>"; };
+		6144D2681581918600CAFE7D /* EPubReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EPubReader-Info.plist"; sourceTree = "<group>"; };
 		6144D26A1581918600CAFE7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6144D26C1581918600CAFE7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6144D26E1581918600CAFE7D /* EPubReader-Prefix.pch */ = {isa = PBXFileReference; path = "EPubReader-Prefix.pch"; sourceTree = "<group>"; };
-		6144D26F1581918600CAFE7D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6144D26E1581918600CAFE7D /* EPubReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EPubReader-Prefix.pch"; sourceTree = "<group>"; };
+		6144D26F1581918600CAFE7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6144D2701581918600CAFE7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6144D2781581961300CAFE7D /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		6144D2791581961300CAFE7D /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		6144D27A1581961300CAFE7D /* barrie-peter-pan-in-kensington-gardens-bookcover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "barrie-peter-pan-in-kensington-gardens-bookcover.jpg"; sourceTree = "<group>"; };
+		6144D27B1581961300CAFE7D /* barrie-peter-pan-in-kensington-gardens.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "barrie-peter-pan-in-kensington-gardens.epub"; sourceTree = "<group>"; };
+		6144D27C1581961300CAFE7D /* EpubFiles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EpubFiles.plist; sourceTree = "<group>"; };
+		6144D27D1581961300CAFE7D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6144D27E1581961300CAFE7D /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		6144D27F1581961300CAFE7D /* sample3.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample3.epub; sourceTree = "<group>"; };
+		6144D2801581961300CAFE7D /* stoker-dracula-bookcover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stoker-dracula-bookcover.jpg"; sourceTree = "<group>"; };
+		6144D2811581961300CAFE7D /* stoker-dracula.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "stoker-dracula.epub"; sourceTree = "<group>"; };
+		6144D2821581961300CAFE7D /* tolstoy-war-and-peace-bookcover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tolstoy-war-and-peace-bookcover.jpg"; sourceTree = "<group>"; };
+		6144D2831581961300CAFE7D /* tolstoy-war-and-peace.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tolstoy-war-and-peace.epub"; sourceTree = "<group>"; };
+		6144D2841581961300CAFE7D /* wells-food-of-the-gods-and-how-it-came-to-earth-bookcover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wells-food-of-the-gods-and-how-it-came-to-earth-bookcover.jpg"; sourceTree = "<group>"; };
+		6144D292158198FA00CAFE7D /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		61559297158AC90D00DE83EB /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		61559298158AC90D00DE83EB /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		61559299158AC90D00DE83EB /* BookCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookCell.xib; sourceTree = "<group>"; };
+		6155929D158AD33300DE83EB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		6155929E158AD33300DE83EB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		6155929F158AD33300DE83EB /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		61B1191015E5C4750091B083 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		61B1191115E5C4750091B083 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		61B1191215E5C4750091B083 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		61B1191315E5C4750091B083 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		61B1191415E5C4750091B083 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		61B1191515E5C4750091B083 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		61B1191615E5C4750091B083 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		61B1191715E5C4750091B083 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		61B1191815E5C4750091B083 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		61B1191915E5C4750091B083 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		61B1191A15E5C4750091B083 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6144D293158198FA00CAFE7D /* libz.1.2.5.dylib in Frameworks */,
 				6144D2611581918600CAFE7D /* UIKit.framework in Frameworks */,
 				6144D2631581918600CAFE7D /* Foundation.framework in Frameworks */,
 				6144D2651581918600CAFE7D /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +128,7 @@
 		6144D25F1581918600CAFE7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6144D292158198FA00CAFE7D /* libz.1.2.5.dylib */,
 				6144D2601581918600CAFE7D /* UIKit.framework */,
 				6144D2621581918600CAFE7D /* Foundation.framework */,
 				6144D2641581918600CAFE7D /* CoreGraphics.framework */,
@@ -72,8 +139,23 @@
 		6144D2661581918600CAFE7D /* EPubReader */ = {
 			isa = PBXGroup;
 			children = (
+				61B1190F15E5C4750091B083 /* minizip */,
+				6144D2771581961300CAFE7D /* Resource */,
 				6144D26F1581918600CAFE7D /* AppDelegate.h */,
 				6144D2701581918600CAFE7D /* AppDelegate.m */,
+				612A30181581C521003E8ED8 /* EpubContent.h */,
+				612A30191581C521003E8ED8 /* EpubContent.m */,
+				612A301C1581CB13003E8ED8 /* XMLHandler.h */,
+				612A301D1581CB13003E8ED8 /* XMLHandler.m */,
+				61559297158AC90D00DE83EB /* BookCell.h */,
+				61559298158AC90D00DE83EB /* BookCell.m */,
+				61559299158AC90D00DE83EB /* BookCell.xib */,
+				6155929D158AD33300DE83EB /* HomeViewController.h */,
+				6155929E158AD33300DE83EB /* HomeViewController.m */,
+				6155929F158AD33300DE83EB /* HomeViewController.xib */,
+				610DE6CF1586E10800E8BE08 /* EpubReaderViewController.h */,
+				610DE6D01586E10800E8BE08 /* EpubReaderViewController.m */,
+				610DE6D11586E10800E8BE08 /* EpubReaderViewController.xib */,
 				6144D2671581918600CAFE7D /* Supporting Files */,
 			);
 			path = EPubReader;
@@ -88,6 +170,44 @@
 				6144D26E1581918600CAFE7D /* EPubReader-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6144D2771581961300CAFE7D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6144D2781581961300CAFE7D /* Background.png */,
+				6144D2791581961300CAFE7D /* bar.png */,
+				6144D27A1581961300CAFE7D /* barrie-peter-pan-in-kensington-gardens-bookcover.jpg */,
+				6144D27B1581961300CAFE7D /* barrie-peter-pan-in-kensington-gardens.epub */,
+				6144D27C1581961300CAFE7D /* EpubFiles.plist */,
+				6144D27D1581961300CAFE7D /* icon.png */,
+				6144D27E1581961300CAFE7D /* navbar.png */,
+				6144D27F1581961300CAFE7D /* sample3.epub */,
+				6144D2801581961300CAFE7D /* stoker-dracula-bookcover.jpg */,
+				6144D2811581961300CAFE7D /* stoker-dracula.epub */,
+				6144D2821581961300CAFE7D /* tolstoy-war-and-peace-bookcover.jpg */,
+				6144D2831581961300CAFE7D /* tolstoy-war-and-peace.epub */,
+				6144D2841581961300CAFE7D /* wells-food-of-the-gods-and-how-it-came-to-earth-bookcover.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		61B1190F15E5C4750091B083 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				61B1191015E5C4750091B083 /* crypt.h */,
+				61B1191115E5C4750091B083 /* ioapi.c */,
+				61B1191215E5C4750091B083 /* ioapi.h */,
+				61B1191315E5C4750091B083 /* mztools.c */,
+				61B1191415E5C4750091B083 /* mztools.h */,
+				61B1191515E5C4750091B083 /* unzip.c */,
+				61B1191615E5C4750091B083 /* unzip.h */,
+				61B1191715E5C4750091B083 /* zip.c */,
+				61B1191815E5C4750091B083 /* zip.h */,
+				61B1191915E5C4750091B083 /* ZipArchive.h */,
+				61B1191A15E5C4750091B083 /* ZipArchive.mm */,
+			);
+			path = minizip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +262,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6144D26B1581918600CAFE7D /* InfoPlist.strings in Resources */,
+				6144D2851581961300CAFE7D /* Background.png in Resources */,
+				6144D2861581961300CAFE7D /* bar.png in Resources */,
+				6144D2871581961300CAFE7D /* barrie-peter-pan-in-kensington-gardens-bookcover.jpg in Resources */,
+				6144D2881581961300CAFE7D /* barrie-peter-pan-in-kensington-gardens.epub in Resources */,
+				6144D2891581961300CAFE7D /* EpubFiles.plist in Resources */,
+				6144D28A1581961300CAFE7D /* icon.png in Resources */,
+				6144D28B1581961300CAFE7D /* navbar.png in Resources */,
+				6144D28C1581961300CAFE7D /* sample3.epub in Resources */,
+				6144D28D1581961300CAFE7D /* stoker-dracula-bookcover.jpg in Resources */,
+				6144D28E1581961300CAFE7D /* stoker-dracula.epub in Resources */,
+				6144D28F1581961300CAFE7D /* tolstoy-war-and-peace-bookcover.jpg in Resources */,
+				6144D2901581961300CAFE7D /* tolstoy-war-and-peace.epub in Resources */,
+				6144D2911581961300CAFE7D /* wells-food-of-the-gods-and-how-it-came-to-earth-bookcover.jpg in Resources */,
+				610DE6D31586E10800E8BE08 /* EpubReaderViewController.xib in Resources */,
+				6155929B158AC90D00DE83EB /* BookCell.xib in Resources */,
+				615592A1158AD33300DE83EB /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +290,16 @@
 			files = (
 				6144D26D1581918600CAFE7D /* main.m in Sources */,
 				6144D2711581918600CAFE7D /* AppDelegate.m in Sources */,
+				612A301A1581C521003E8ED8 /* EpubContent.m in Sources */,
+				612A301E1581CB13003E8ED8 /* XMLHandler.m in Sources */,
+				610DE6D21586E10800E8BE08 /* EpubReaderViewController.m in Sources */,
+				6155929A158AC90D00DE83EB /* BookCell.m in Sources */,
+				615592A0158AD33300DE83EB /* HomeViewController.m in Sources */,
+				61B1191D15E5C4750091B083 /* ioapi.c in Sources */,
+				61B1191E15E5C4750091B083 /* mztools.c in Sources */,
+				61B1191F15E5C4750091B083 /* unzip.c in Sources */,
+				61B1192015E5C4750091B083 /* zip.c in Sources */,
+				61B1192115E5C4750091B083 /* ZipArchive.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +403,7 @@
 				6144D2761581918600CAFE7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

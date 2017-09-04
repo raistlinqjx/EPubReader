@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "HomeViewController.h"
+
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -22,7 +24,12 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+   // self.viewController = [[[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil] autorelease];
+    viewController = [[[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil] autorelease];
+//    self.window.rootViewController = viewController;
+    _rootNavigation = [[UINavigationController alloc] initWithRootViewController:viewController];
+    [_rootNavigation.navigationBar setBarStyle:UIBarStyleBlackTranslucent];
+    [self.window addSubview:_rootNavigation.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
